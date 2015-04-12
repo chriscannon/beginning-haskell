@@ -1,0 +1,7 @@
+These solutions are just using the GHCi:
+
+1. I do not understand *which* list literal they want, so I found
+the most complicated one in Chapter 2 to produce using only : and [].
+
+Prelude> ('a' : 'b' : 'c' : []) : ('d' : 'e' : []) : []
+["abc","de"]
